@@ -1,0 +1,20 @@
+<div class="list-area col-md-9">
+  <div class="list-wrapper">
+      <ul class="list-group col-equal" ng-repeat="status in storyboard.statuses">
+          <h3 class="status">{{status.name}}</h3>
+            <hr/>
+            <li class="story" ng-repeat="story in storyboard.stories | filter: {status:status.id}" ng-click="storyboard.setCurrentStory(story)">
+              <article>
+                <div>
+                  <button type="button" class="close">×</button>
+                    <p class="title">{{story.title}}</p>
+                </div>
+                <div class="type-bar type-{{story.type}}"></div>
+                <div>
+                    <p class="body">{{story.description}}</p>
+                </div>
+              </article>
+            </li>
+      </ul>
+  </div>
+</div>

@@ -6,14 +6,15 @@ Hello!, this is my first portfolio's project based on a dunebook tutorial
 
 angular-storyboard is my implementation for Angello's example, the idea is start my portfolio showing what can I do, mixing technologies in exploration like AngularJS, Sass & ReactJS. 
 
-# Usage
+## Usage
 
 Clone the repository
-
+```shell
     git clone git@github.com:mrios/angular-storyboard.git
+```
 
 
-# Demo
+## Demo
 
 Visit the Github page's project:
 

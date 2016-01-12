@@ -1,0 +1,62 @@
+body {
+  background: url("images/bg_storyboard.jpg");
+  color: white;
+}
+
+ul.list-group {
+  opacity: 0.8;
+  color: white;
+  margin: 0.2%;
+  padding: 5px;
+}
+
+.col-equal {
+  width: 18.8%;
+  float: left;
+}
+
+ul.list-group > li.story {
+  background-color: rgba(200, 54, 54, 0.2);
+  padding: 5px;
+  list-style: none;
+}
+
+ul.list-group > li.story:hover {
+  background-color: white;
+  transition: 1s;
+  color:#333;
+}
+
+ul.list-group > li.story > article > div > p.title {
+  font-size: 20px;
+}
+
+ul.list-group > li.story > article > div > p.body {
+  padding: 10px 0px;
+}
+
+ul.list-group > li.story > article > .type-bar {
+  height: 2px;
+}
+
+ul.list-group > li.story > article > .type-bar.type-1 {
+  background-color: #5CB85C;
+}
+
+ul.list-group > li.story > article > .type-bar.type-2 {
+  background-color: #5BC0DE;
+}
+
+.form-area {
+  padding: 0px;
+}
+
+.form-area > .details {
+  background-color: white;
+  color:black;
+  padding: 10px;
+}
+
+.form-area > .details form textarea.form-control {
+  height: 45px;
+}
