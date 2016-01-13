@@ -29,6 +29,16 @@
         "status": "2",
         "title": "Second Story",
         "type": "2"
+      },
+      {
+        "assignee": "3",
+        "criteria": "It works!!!",
+        "description": "Testing something",
+        "id": "3",
+        "reporter": "2",
+        "status": "3",
+        "title": "Third Story",
+        "type": "3"
       }
     ];
 
@@ -55,7 +65,6 @@
       storyboard.setCurrentStory = function(story) {
         storyboard.currentStory = story;
         storyboard.editedStory = angular.copy(storyboard.currentStory);
-        console.log(storyboard.editedStory)
       }
 
       storyboard.updateCancel = function() {
