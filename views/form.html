@@ -79,12 +79,12 @@
                  ng-click="storyboard.updateCancel()">
                     Cancel
                 </button>
-                <button class="btn pull-right btn-default"
+                <button class="btn pull-right btn-primary"
                         ng-disabled="!storyboard.detailsForm.$valid"
                         ng-click="storyboard.updateStory()">Update Story</button>
             </div>
             <div ng-if="!storyboard.currentStory">
-                <button class="btn pull-right btn-default"
+                <button class="btn pull-right btn-success"
                         ng-disabled="!storyboard.detailsForm.$valid"
                         ng-click="storyboard.createStory()">Create Story</button>
                         <br /><br />

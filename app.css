@@ -106,6 +106,12 @@ ul.list-group > li.story > article > .type-bar.type-3 {
 
 /*** Responsive design ***/
 
+@media (min-width: 320px) and (max-width: 360px) {
+  .col-equal {
+    width: 100%;
+  }
+}
+
 @media (max-width: 1024px) {
   .list-area {
     padding: 10px 0px;
